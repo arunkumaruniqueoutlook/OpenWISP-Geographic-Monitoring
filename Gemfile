@@ -1,15 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '7.0.8.1'
 gem 'mysql', '2.8.1'
 
-gem 'exception_notification', '~> 3.0.1', :require => 'exception_notifier'
+gem 'exception_notification', '~> 4.0.0', :require => 'exception_notifier'
 gem 'sentry-raven'
 gem 'system_timer'
 gem 'pony'
 
-gem 'jquery-rails', '~> 1.0.11'
-gem 'kaminari', '~> 0.12.4'
+gem 'jquery-rails', '~> 4.0.1'
+gem 'kaminari', '~> 0.13.0'
 gem 'breadcrumbs_on_rails', '~> 2.0.0'
 gem 'app-config', '~> 0.1.2'
 
@@ -19,8 +19,8 @@ gem 'geokit-rails3', '~> 0.1.2'
 gem 'net-ping', '~> 1.5.0'
 gem 'nokogiri', '~> 1.4.6'
 
-gem 'warden', '~> 1.0.4'
-gem 'devise', '~> 1.3.4'
+gem 'warden', '~> 1.1.0'
+gem 'devise', '~> 1.4.1'
 gem 'acl9', '~> 0.12.0'
 
 gem 'packet', '0.1.15', :git => 'git://github.com/openwisp/packet-legacy'
@@ -36,5 +36,5 @@ gem "spreadsheet", "~> 0.7.3"
 gem "dynamic_form", "~> 1.1.4"
 
 group :development do
-  gem "rack-mini-profiler"
+  gem "rack-mini-profiler", ">= 0.1.10"
 end
