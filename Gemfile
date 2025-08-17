@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '7.1.5.2'
 gem 'mysql', '2.8.1'
 
 gem 'exception_notification', '~> 3.0.1', :require => 'exception_notifier'
@@ -9,7 +9,7 @@ gem 'system_timer'
 gem 'pony'
 
 gem 'jquery-rails', '~> 1.0.11'
-gem 'kaminari', '~> 0.12.4'
+gem 'kaminari', '~> 0.13.0'
 gem 'breadcrumbs_on_rails', '~> 2.0.0'
 gem 'app-config', '~> 0.1.2'
 
