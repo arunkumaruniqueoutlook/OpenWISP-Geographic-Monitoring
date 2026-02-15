@@ -4,7 +4,7 @@ gem 'rails', '3.0.9'
 gem 'mysql', '2.8.1'
 
 gem 'exception_notification', '~> 3.0.1', :require => 'exception_notifier'
-gem 'sentry-raven'
+gem 'sentry-raven', '>= 0.14.0'
 gem 'system_timer'
 gem 'pony'
 
